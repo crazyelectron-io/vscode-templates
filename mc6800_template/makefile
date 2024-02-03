@@ -22,6 +22,6 @@ $(OBJ): $(SRC)
 
 .PHONEY: clean
 clean:
-	$(RM) *.s19
-	$(RM) Fwd_refs
+	$(RM) $(APP).s19
+	$(RM) $(APP).lst
 	@echo "Build artifacts removed"
